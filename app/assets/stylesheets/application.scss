@@ -3,6 +3,16 @@
 @import 'bootstrap/theme';
 
 
+body {
+  font-family: 'Cutive Mono';
+}
+
+h1 {
+  font-family: 'Special Elite', sans-serif;
+  text-align: center;
+  margin-top: 10px;
+}
+
 .alert-alert {
   @extend .alert-warning;
 }
@@ -11,19 +21,37 @@
   @extend .alert-info;
 }
 
-.navbar-default {
-    background-color: #FFFFFF;
-    border: none;
-}
-
-.navbar-nav > li > a {
-  padding-top:5px !important; padding-bottom:5px !important;
+.container-fluid {
+  padding: 0;
 }
 
 .navbar {
   min-height:32px !important
 }
 
-.navbar-nav > li > a, .navbar-brand 
-{padding-top:5px !important; padding-bottom:0 !important; height: 30px; } 
-.navbar {min-height:30px !important;}
+.navbar-default {
+    background-color: #FFFFFF;
+    border: none;
+    background-image: none;
+    box-shadow: none;
+    width: 100%;
+}
+
+.navbar-nav > li > a {
+  padding-top:15px !important; 
+  padding-bottom:0px !important;
+  margin-bottom: 0px !important;
+  margin-top: 8px !important;
+  font-family: 'Special Elite', sans-serif;
+  font-size: 25px;
+}
+
+.navbar {
+  min-height:30px !important;
+ }
+
+.page-header {
+  margin-top: 0px;
+ }
+
+
