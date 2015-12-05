@@ -3,14 +3,30 @@
 @import 'bootstrap/theme';
 
 
+$green: #96C294;
+$light-green: #CADEAC;
+$dark-green: #5C9E7B;
+$yellow: #DFE8B3;
+$light-grey: #DADFE0;
+$grey: #777777;
+$offwhite: #F8FAEF;
+
+
 body {
   font-family: 'Cutive Mono';
+  background-color: $offwhite;
+  font-size: 16px;
 }
 
 h1 {
   font-family: 'Special Elite', sans-serif;
   text-align: center;
   margin-top: 10px;
+}
+
+h2 {
+  font-family: 'Special Elite', sans-serif;
+  text-align: center;
 }
 
 .alert-alert {
@@ -30,7 +46,7 @@ h1 {
 }
 
 .navbar-default {
-    background-color: #FFFFFF;
+    background-color: $offwhite;
     border: none;
     background-image: none;
     box-shadow: none;
@@ -51,11 +67,25 @@ h1 {
  }
 
 .page-header {
-  margin-top: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px; ;
+  border-bottom: 1px $light-grey solid;;
  }
 
  .page-footer {
   text-align: center;
+  margin-top: 20px;
+  border-top: 1px $light-grey solid;
+  padding-top: 10px;
  }
 
+.divider {
+  height: 10px;
+  border-top: 1px $light-grey solid;
+  margin-top: 10px;
+}
+
+.space {
+  height: 20px;
+}
 

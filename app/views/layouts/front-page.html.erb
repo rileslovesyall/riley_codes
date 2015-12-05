@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RileyCodes</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link href='https://fonts.googleapis.com/css?family=Special+Elite|Cutive+Mono' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <% flash.each do |key, value| %>
+      <div class="alert alert-<%= key %>">
+        <%= value %>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="container-fluid">
+    <%= yield :top_content %> 
+    <h1><%= yield :header %></h1>
+  </div>
+  <div class="container">
+    <%= yield %>
+  </div>
+</body>
+<footer>
+  <div class="container">
+    <div class='page-footer divider'>
+      <p> &copy; Riley Spicer 2015 / www.github.com/rileyrileyrose / twitter: @rileyrileyrose </p>
+  </div>
+</footer>
+</html>

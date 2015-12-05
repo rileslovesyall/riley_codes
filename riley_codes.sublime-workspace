@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
 				"book",
 				"book_id"
 			],
@@ -28,16 +44,8 @@
 				"exercise_workouts"
 			],
 			[
-				"border",
-				"border"
-			],
-			[
 				"body",
 				"body_focus"
-			],
-			[
-				"margin",
-				"margin-bottom"
 			],
 			[
 				"font",
@@ -46,10 +54,6 @@
 			[
 				"contrast",
 				"contrast-background"
-			],
-			[
-				"padding",
-				"padding-top"
 			],
 			[
 				"contras",
@@ -288,10 +292,34 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/rileypants/ada/git/personal/riley_codes/Gemfile",
+			"file": "/Users/rileypants/ada/git/personal/riley_codes/app/views/pages/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 1618,
+				"buffer_size": 446,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/rileypants/ada/git/personal/riley_codes/app/assets/stylesheets/application.scss",
+			"settings":
+			{
+				"buffer_size": 1455,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/rileypants/ada/git/personal/riley_codes/app/controllers/pages_controller.rb",
+			"settings":
+			{
+				"buffer_size": 161,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/rileypants/ada/git/personal/riley_codes/app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 947,
 				"line_ending": "Unix"
 			}
 		}
@@ -299,9 +327,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 247.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"",
+				"About"
+			],
 			[
 				"enable",
 				"Side Bar: Enable Syncing"
@@ -319,7 +351,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 488.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -336,6 +368,20 @@
 	},
 	"file_history":
 	[
+		"/Users/rileypants/ada/git/personal/riley_codes/app/views/layouts/application.html.erb",
+		"/Users/rileypants/ada/git/personal/riley_codes/config/routes.rb",
+		"/Users/rileypants/ada/git/personal/riley_codes/app/views/application/_header.html.erb",
+		"/Users/rileypants/ada/git/personal/riley_codes/.gitignore",
+		"/users/rileypants/ada/git/personal/riley_codes/app/views/pages/projects.html.erb",
+		"/users/rileypants/ada/git/personal/riley_codes/app/views/pages/about.html.erb",
+		"/Users/rileypants/ada/git/personal/riley_codes/Gemfile",
+		"/users/rileypants/ada/git/personal/riley_codes/app/views/pages/secret.html.erb",
+		"/users/rileypants/ada/git/personal/riley_codes/app/views/application/_header.html.erb",
+		"/Users/rileypants/ada/git/personal/riley_codes/config/application.rb",
+		"/Users/rileypants/ada/git/personal/riley_codes/app/controllers/pages_controller.rb",
+		"/Users/rileypants/ada/git/personal/riley_codes/app/controllers/application_controller.rb",
+		"/Users/rileypants/ada/git/personal/riley_codes/db/migrate/20151204004100_devise_create_users.rb",
+		"/Users/rileypants/ada/git/personal/riley_codes/db/migrate/20151204173519_add_user_table.rb",
 		"/Users/rileypants/ada/git/project_forks/MediaRanker/Gemfile",
 		"/Users/rileypants/ada/git/project_forks/MediaRanker/spec/models/book_spec.rb",
 		"/Users/rileypants/ada/git/project_forks/MediaRanker/spec/spec_helper.rb",
@@ -449,21 +495,7 @@
 		"/Users/rileypants/Ada/git/project-forks/tabata-rails-app/db/migrate/20151124233819_create_favorites.rb",
 		"/Users/rileypants/Ada/git/project-forks/tabata-rails-app/db/migrate/20151124204411_create_favorite_exercises.rb",
 		"/Users/rileypants/Ada/git/project-forks/tabata-rails-app/db/migrate/20151124193426_create_users.rb",
-		"/Users/rileypants/Ada/git/project-forks/tabata-rails-app/db/migrate/20151124204715_create_join_table_favorite_exercises.rb",
-		"/Users/rileypants/Ada/git/project-forks/tabata-rails-app/db/migrate/20151124204541_create_joine_table_favorite_exercises.rb",
-		"/Users/rileypants/Ada/git/project-forks/tabata-rails-app/db/migrate/20151124203333_add_user_id_to_workouts_and_exercises.rb",
-		"/Users/rileypants/Ada/git/project-forks/tabata-rails-app/db/migrate/20151124203643_create_join_table.rb",
-		"/Users/rileypants/Ada/git/project-forks/tabata-rails-app/db/migrate/20151124202125_create_join_table.rb",
-		"/Users/rileypants/Ada/git/project-forks/tabata-rails-app/app/controllers/home_controller.rb",
-		"/Users/rileypants/Ada/sandbox/user-auth-rails/app/views/sessions/new.html.erb",
-		"/Users/rileypants/Ada/sandbox/user-auth-rails/app/models/user.rb",
-		"/Users/rileypants/Ada/sandbox/user-auth-rails/app/controllers/home_controller.rb",
-		"/Users/rileypants/Ada/sandbox/user-auth-rails/app/views/home/index.html.erb",
-		"/Users/rileypants/Ada/sandbox/user-auth-rails/app/views/home.html.erb",
-		"/Users/rileypants/Ada/git/projectforks/tabata-rails-app/Gemfile",
-		"/Users/rileypants/Ada/git/projectforks/tabata-rails-app/db/migrate/20151122225215_add_columns_to_users.rb",
-		"/Users/rileypants/Ada/git/projectforks/newfarmar/db/migrate/20151122185045_create_sales.rb",
-		"/Users/rileypants/Ada/git/projectforks/newfarmar/db/migrate/20151122185128_add_product_id_to_sale.rb"
+		"/Users/rileypants/Ada/git/project-forks/tabata-rails-app/db/migrate/20151124204715_create_join_table_favorite_exercises.rb"
 	],
 	"find":
 	{
@@ -482,6 +514,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"jpg",
 			"movie",
 			"Movie",
 			"movie",
@@ -579,18 +612,250 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/rileypants/ada/git/personal/riley_codes/Gemfile",
+					"file": "/Users/rileypants/ada/git/personal/riley_codes/app/views/pages/index.html.erb",
 					"settings":
 					{
-						"buffer_size": 1618,
+						"buffer_size": 446,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								904,
-								904
+								85,
+								76
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/rileypants/ada/git/personal/riley_codes/app/assets/stylesheets/application.scss",
+					"settings":
+					{
+						"buffer_size": 1455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								930,
+								930
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 551.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/rileypants/ada/git/personal/riley_codes/app/controllers/pages_controller.rb",
+					"settings":
+					{
+						"buffer_size": 161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
 							]
 						],
 						"settings":
@@ -692,6 +957,122 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/rileypants/ada/git/personal/riley_codes/app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								818,
+								818
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 36.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		}
@@ -742,16 +1123,52 @@
 		"selected_items":
 		[
 			[
-				"devis",
-				"config/initializers/devise.rb"
+				"layou",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"pages",
+				"app/controllers/pages_controller.rb"
 			],
 			[
 				"rout",
 				"config/routes.rb"
 			],
 			[
+				"lay",
+				"app/views/layouts/application.html.erb"
+			],
+			[
 				"layo",
 				"app/views/layouts/application.html.erb"
+			],
+			[
+				"",
+				"/users/rileypants/ada/git/personal/riley_codes/app/views/application/_header.html.erb"
+			],
+			[
+				"page",
+				"app/controllers/pages_controller.rb"
+			],
+			[
+				"migrat",
+				"db/migrate/20151204004100_devise_create_users.rb"
+			],
+			[
+				"applic",
+				"config/application.rb"
+			],
+			[
+				"layout",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"appli",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"devis",
+				"config/initializers/devise.rb"
 			],
 			[
 				"rou",
@@ -766,16 +1183,8 @@
 				"db/seeds.rb"
 			],
 			[
-				"migrat",
-				"db/migrate/20151130214813_add_votes_to_book.rb"
-			],
-			[
 				"gemfi",
 				"Gemfile"
-			],
-			[
-				"",
-				"app/controllers/workouts_controller.rb"
 			],
 			[
 				"gener",
@@ -870,10 +1279,6 @@
 				"app/models/task.rb"
 			],
 			[
-				"layout",
-				"app/views/layouts/application.html.erb"
-			],
-			[
 				"r",
 				"config/routes.rb"
 			],
@@ -898,11 +1303,15 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/users/rileypants/ada/class-work/cs-fundamentals/sorting/cs_fundamentals.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": false,
