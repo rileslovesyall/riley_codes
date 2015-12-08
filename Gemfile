@@ -38,6 +38,7 @@ gem 'jquery-turbolinks'
 # gem 'capistrano-rails', group: :development
 
 group :production do
+  # user Postgres for heroku deployment
   gem 'pg'
 end
 
