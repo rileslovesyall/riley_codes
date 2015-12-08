@@ -29,6 +29,19 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-family: 'Special Elite', sans-serif;
+  text-align: center;
+}
+
+.front-page-text {
+  text-align: center;
+}
+
+.front-page-img {
+  max-width: 300px;
+}
+
 .alert-alert {
   @extend .alert-warning;
 }

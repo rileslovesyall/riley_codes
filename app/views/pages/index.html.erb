@@ -1,25 +1,38 @@
 <% content_for :top_content do %>
   <%= image_tag 'typewriter-greeting-no-period', class: 'img-responsive'  %>
 <% end %>
-
-<!-- <div class='row page-header'>
-    <h1>welcome. i'm riley spicer.</h1>
-</div> -->
 <div class='row'>
   <div class="col-xs-12">
     <h2>
       i write thoughtful, concise, efficient code.
     </h2>
-  </div>
-</div>
-<div class="divider"></div>
-<div class='row'> </div>
-  <div class='col-xs-6'>
-    <div id='front-page-description'>
+    <div class='front-page-text'>
       I'm a student at Ada Developer's Academy, where I'm learning the ways of Ruby on Rails and Javascript, with a dash of computer science concepts to help build a strong foundation. 
     </div>
   </div>
+</div>
+<div class="divider"></div>
+<div class='row'>
+<h3>recent projects:</h3>
+  <div class='col-md-4'>
+    <%= link_to 'http://rileysmagicaltasklist.herokuapp.com' do %>
+      <%= image_tag 'TaskList.png', class: 'front-page-img img-responsive' %>
+    <% end %> 
+  </div>
+  <div class='col-md-4'>
+    <%= link_to 'http://get-sweaty.herokuapp.com' do %>
+      <%= image_tag 'GetSweaty.png', class: 'front-page-img img-responsive' %>
+    <% end %>
+  </div>
+  <div class='col-md-4'>
+    <%= link_to 'http://tacocorn.herokuapp.com' do %>
+      <%= image_tag 'TacoCorn.png', class: 'front-page-img img-responsive' %>
+    <% end %>
+  </div>
+</div>
   <div class='col-xs-6'>
-    <h1>recent projects:</h1>
+    <div id='front-page-text'>
+      something here?
+    </div>
   </div>
 </div>
