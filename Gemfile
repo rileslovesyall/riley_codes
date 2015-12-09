@@ -38,6 +38,7 @@ gem 'jquery-turbolinks'
 group :production do
   # user Postgres for heroku deployment
   gem 'pg'
+  gem 'rails_12factor'
 end
 
 group :development, :test do
