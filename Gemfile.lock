@@ -185,7 +185,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
   font-awesome-sass
-  haml
+  haml (= 4.0.7)
   jbuilder (~> 2.0)
   jquery-rails
   jquery-turbolinks

@@ -35,7 +35,7 @@ gem 'bcrypt', '~> 3.1.7'
 # gem 'capistrano-rails', group: :development
 
 # HAML for html markup
-gem 'haml'
+gem 'haml', "4.0.7"
 
 # Gems for blog
 
