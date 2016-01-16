@@ -29,15 +29,13 @@ gem 'bootstrap-sass'
 gem 'jquery-turbolinks'
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
-# Use Unicorn as the app server
-# gem 'unicorn'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-#Gems for blog
+# Gems for blog
+
 # Red Cloth so posts can be written in markdown and then translated on the page
 gem 'redcloth-rails'
 # Paperclip gem for uploading files
