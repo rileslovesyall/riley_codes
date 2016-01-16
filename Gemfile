@@ -38,8 +38,12 @@ gem 'jquery-turbolinks'
 # gem 'capistrano-rails', group: :development
 
 #Gems for blog
-gem 'RedCloth'
+# Red Cloth so posts can be written in markdown and then translated on the page
+gem 'redcloth-rails'
+# Paperclip gem for uploading files
 gem "paperclip", "~> 4.3"
+# To generate pretty slugs for blog posts
+gem 'slugalicious'
 
 group :production do
   # user Postgres for heroku deployment
