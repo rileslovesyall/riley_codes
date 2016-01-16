@@ -37,7 +37,9 @@ gem 'jquery-turbolinks'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#Gems for blog
 gem 'RedCloth'
+gem 'paperclip'
 
 group :production do
   # user Postgres for heroku deployment

@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   get '/about' => 'pages#about', as: :about
 
   # login/logout stuff
-  get '/rileyisawesome'
+  # get '/rileyisawesome', to: ''
 
   # custom route names
   get '/makesomewords', to: 'posts#new', as: :write_post
