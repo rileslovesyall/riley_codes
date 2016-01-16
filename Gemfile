@@ -34,6 +34,9 @@ gem 'bcrypt', '~> 3.1.7'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# HAML for html markup
+gem 'haml'
+
 # Gems for blog
 
 # Red Cloth so posts can be written in markdown and then translated on the page
