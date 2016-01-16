@@ -39,7 +39,7 @@ gem 'jquery-turbolinks'
 
 #Gems for blog
 gem 'RedCloth'
-gem 'paperclip'
+gem "paperclip", "~> 4.3"
 
 group :production do
   # user Postgres for heroku deployment
