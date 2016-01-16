@@ -37,7 +37,7 @@ gem 'bcrypt', '~> 3.1.7'
 # Gems for blog
 
 # Red Cloth so posts can be written in markdown and then translated on the page
-gem 'redcloth-rails'
+gem 'redcloth-rails', '~> 0.2.0'
 # Paperclip gem for uploading files
 gem "paperclip", "~> 4.3"
 # To generate pretty slugs for blog posts
