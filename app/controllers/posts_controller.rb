@@ -1,5 +1,6 @@
 class PostsController < ApplicationController
   before_action :find_post, only: [:show, :edit, :update, :destroy]
+  before_action :must_be_logged_in, except: [:index, :show]
 
   def index
     @posts = Post.all
@@ -8,7 +9,12 @@ class PostsController < ApplicationController
   def show; end
 
   def new
-    @post = Post.new
+    if !@current_user
+      flash[:error] = "Silly rabbit, Trix are for kids."
+      redirect_to root_path
+    else
+      @post = Post.new
+    end
   end
 
   def create
