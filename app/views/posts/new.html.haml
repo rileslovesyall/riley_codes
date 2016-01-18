@@ -1,13 +1,59 @@
 .row
   .col-sm-12.col-md-12.col-lg-12
-    %h3 
+    %h3 Write a Post
     .form
       = form_for @post do |p|
         %p
           Title: 
-          = p.text_field :title
+          = p.text_field :title, class: 'blog-title-field'
         %p
           Body: 
-          = p.text_area :body
+          = p.text_area :body, class: 'blog-body-field'
         %p
           = submit_tag "Submit"
+.row
+  %h3= link_to 'Textile Rules', 'http://redcloth.org/textile/writing-paragraph-text/'
+  %ul
+    %li h1. level 1 heading
+    %li h2. level 2 heading
+    %li h3. level 3 heading
+    %li h4. level 4 heading
+
+    %li \bq. this is blockquoted text
+
+    %li \fn1. footnote 1
+    %li \fn2. footnote 2
+    %li \This text refernces a footnote[1]
+
+    %li \# numbered list item 1
+    %li \# numbered list item 2
+    %li \* bulleted list first item
+    %li \* bulleted list second item
+
+    %li \_emphasis_
+    %li \*strong*
+    %li \??citation??
+    %li \-deleted text-
+    %li \+inserted text+
+    %li \^superscript^
+    %li \~subscript~
+    %li \%span%
+
+    %li \p(class). paragraph with a classname
+    %li \p(#id). paragraph with an ID
+    %li \p{color:red}. paragrah with a CSS style
+    %li \p[fr]. paragraphe en français
+    %li \p<. right aligned paragraph
+    %li \p>. left aligned paragraph
+    %li \p=. centered aligned paragraph
+    %li \p<>. justified text paragraph
+
+    %li \|_. head |_. table |_. row |
+    %li \| a | table | row 1 |
+    %li \| a | table | row 2 |
+
+    %li \"linktext":url
+    %li \!imageurl!
+
+    %li \ABBR(Abbreviation)
+
