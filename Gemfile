@@ -34,8 +34,7 @@ gem 'jquery-turbolinks'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+gem 'haml'
 
 group :production do
   # user Postgres for heroku deployment
