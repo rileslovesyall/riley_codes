@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'users/show'
+
   root to: 'pages#index'
 
   # static pages
@@ -10,8 +12,7 @@ Rails.application.routes.draw do
   get '/makesomewords', to: 'posts#new'
 
   # login/logout stuff
-  get "/login" => "sessions#new"
-  post "/login" => "sessions#create"
+  get "/auth/:provider/callback", to: "sessions#create"
   get "/logout" => "sessions#destroy", as: :logout
 
   # CRUD resources
