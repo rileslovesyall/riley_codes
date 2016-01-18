@@ -1,11 +1,13 @@
 .row
-  .col-sm-4.col-md-4.col-lg-4
-  .col-sm-4.col-md-4.col-lg.4
+  .col-sm-12.col-md-12.col-lg-12
     %h3 
-    = form_for :post do |p|
-      Title: 
-      = f.text_field :title
-      Body: 
-      .blog-body-field = f.text_area :body
-    = end
-  .col-sm-4.col-md-4.col-lg.4
+    .form
+      = form_for @post do |p|
+        %p
+          Title: 
+          = p.text_field :title
+        %p
+          Body: 
+          = p.text_area :body
+        %p
+          = submit_tag "Submit"
