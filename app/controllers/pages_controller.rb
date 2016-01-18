@@ -7,7 +7,5 @@ class PagesController < ApplicationController
   end
   def projects
   end
-  def haml_about
-    render :haml_about
-  end
+
 end
