@@ -94,7 +94,7 @@ h4 {
 }
 
 .navbar {
-  min-height:32px !important
+  min-height:32px !important;
 }
 
 .navbar-default {
@@ -125,7 +125,7 @@ h4 {
 .page-header {
   margin-top: 20px;
   margin-bottom: 20px; ;
-  border-bottom: 1px $light-grey solid;;
+  border-bottom: 1px $light-grey solid;
  }
 
  .page-footer {
@@ -139,6 +139,8 @@ h4 {
   height: 10px;
   border-top: 1px $light-grey solid;
   margin-top: 10px;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .space {
