@@ -36,6 +36,7 @@ gem 'haml', "4.0.7"
 
 gem "omniauth"
   gem "omniauth-github"
+gem 'dotenv-rails', :groups => [:development, :test]
 
 # Gems for blog
 gem 'humanizer'
