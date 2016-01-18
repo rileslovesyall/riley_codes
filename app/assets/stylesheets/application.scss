@@ -143,6 +143,11 @@ h4 {
   margin: 0 auto;
 }
 
+.dash-divider {
+  height: 10px;
+  margin: 20px 0 35px;
+}
+
 .space {
   height: 20px;
 }
@@ -175,4 +180,10 @@ a:visited {
 
 .blog-time {
   text-align: left;
+}
+
+.project-description {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
 }

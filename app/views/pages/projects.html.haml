@@ -1,8 +1,30 @@
 .row
-  %h1 recent works in progress
+  %h2 recent works in progress
   .col-sm-6.col-md-6.col-lg-6
     = link_to 'http://get-sweaty.herokuapp.com', :target => "_blank" do
       = image_tag 'GetSweaty.png', class: 'front-page-img img-responsive'
+    %h3 Workout Generator - November 2015
+    %p.text-center.project-description
+      Sandbox project. Built basic user authorization, learned how to
+      structure many-to-many relationships, and worked on more complicated relationships between models. 
+    %h4= link_to "click here for the code", "https://github.com/rileyrileyrose/tabata-rails-app"
   .col-sm-6.col-md-6.col-lg-6
     = link_to 'http://rileysmagicaltasklist.herokuapp.com', :target => "_blank" do
       = image_tag 'TaskList.png', class: 'front-page-img img-responsive'
+    %h3 First Rails App - November 2015
+    %p.text-center.project-description
+      We used this project to learn how to build a Rails web app and then deploy it
+      to Heroku. Became familiar with MVC architecture, and began working with CSS. 
+    %h4= link_to "click here for the code", "https://github.com/rileyrileyrose/TaskListRails"
+.row
+  = render 'divider'
+.row
+  .col-sm-12.col-md-12.col-lg-12
+    %p
+      At 
+      = link_to "Ada Developer's Academy", "http://adadevelopersacademy.org"
+      we create 2-4 projects per month, and we're developing our skills at a rapid pace. 
+      This means that what I did a month ago is not representative of what I can do today, 
+      and what I can do today will look a mess compared to what I can acheive by next week. 
+      Here's an overview of the projects we have created at Ada:
+
