@@ -16,7 +16,7 @@ class PostsController < ApplicationController
         title: post_params[:title],
         body: post_params[:body]
       )
-    redirect_to :index
+    redirect_to posts_path
   end
 
   def edit; end

@@ -10,7 +10,9 @@ Rails.application.routes.draw do
   get '/makesomewords', to: 'posts#new'
 
   # login/logout stuff
-  # get '/rileyisawesome', to: ''
+  get "/login" => "sessions#new"
+  post "/login" => "sessions#create"
+  get "/logout" => "sessions#destroy", as: :logout
 
   # CRUD resources
   resources :posts
