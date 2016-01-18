@@ -102,7 +102,7 @@ h4 {
   border: none;
   background-image: none;
   box-shadow: none;
-  width: 100%;
+  width: 100% !important;
 }
 
 .navbar-nav > li > a {
@@ -149,10 +149,15 @@ h4 {
 
 a {
   text-decoration: none;
+  color: $dark-grey;
 }
 
 a:hover {
   color: $dark-green;
+}
+
+a:visited {
+  color: $dark-grey;
 }
 
 .blog-title-field {

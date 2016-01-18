@@ -9,12 +9,7 @@ class PostsController < ApplicationController
   def show; end
 
   def new
-    if !@current_user
-      flash[:error] = "Silly rabbit, Trix are for kids."
-      redirect_to root_path
-    else
-      @post = Post.new
-    end
+    @post = Post.new
   end
 
   def create

@@ -5,7 +5,7 @@
         %li.navbar-left= link_to 'Home', root_path
         %li= link_to 'About Me', about_path
         %li= link_to 'Blog', posts_path
-        - if is_riley?
+        - if @current_user && @current_user.is_riley?
           %li= link_to 'Logout', logout_path
           %li= link_to 'Write Post', new_post_path
         %li.navbar-right= link_to 'Projects', projects_path

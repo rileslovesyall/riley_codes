@@ -21,4 +21,12 @@ class User < ActiveRecord::Base
     end
   end
 
+  def is_riley?
+    if self == User.find_by(uid: "13241167", username: "Riley Spicer")
+      return true
+    else
+      return false
+    end
+  end
+
 end
