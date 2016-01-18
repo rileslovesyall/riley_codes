@@ -2,6 +2,6 @@
   .col-sm-12.col-md-12.col-lg-12
     %h1 Awesome Blog Posts
     - @posts.each do |post|
-      = post.title
-      = post.created_at
-      = post.body
+      %h2= post.title
+      %h4= post.created_at
+      .blog-post= post.body
