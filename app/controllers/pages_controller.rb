@@ -1,5 +1,4 @@
 class PagesController < ApplicationController
-  before_action :authenticate_user!, only: [:secret]
 
   def index
     render :layout => "front-page"
@@ -7,5 +6,8 @@ class PagesController < ApplicationController
   def about
   end
   def projects
+  end
+  def haml_about
+    render :haml_about
   end
 end
