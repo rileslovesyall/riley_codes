@@ -29,12 +29,16 @@ gem 'bootstrap-sass'
 gem 'jquery-turbolinks'
 
 # Use ActiveModel has_secure_password
-gem 'bcrypt', '~> 3.1.7'
+# gem 'bcrypt', '~> 3.1.7'
 
 # HAML for html markup
 gem 'haml', "4.0.7"
 
+gem "omniauth"
+  gem "omniauth-github"
+
 # Gems for blog
+gem 'humanizer'
 
 # Red Cloth so posts can be written in markdown and then translated on the page
 gem 'redcloth-rails', '~> 0.2.0'
