@@ -16,24 +16,24 @@ $offwhite: #F8FAEF;
 
 
 body {
-  font-family: 'Cutive Mono';
+  font-family: 'Cutive Mono', serif;
   background-color: $offwhite;
   font-size: 17px;
 }
 
 h1 {
-  font-family: 'Special Elite', sans-serif;
+  font-family: 'Special Elite', serif;
   text-align: center;
   margin-top: 10px;
 }
 
 h2 {
-  font-family: 'Special Elite', sans-serif;
+  font-family: 'Special Elite', serif;
   text-align: center;
 }
 
 h3 {
-  font-family: 'Special Elite', sans-serif;
+  font-family: 'Special Elite', serif;
   text-align: center;
 }
 
@@ -143,7 +143,6 @@ h4 {
 
 a {
   text-decoration: none;
-  color: $dark-grey;
 }
 
 a:hover {
