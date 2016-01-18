@@ -2,6 +2,6 @@
   .col-sm-12.col-md-12.col-lg-12
     %h1 Awesome Blog Posts
     - @posts.each do |post|
-      %h2= post.title
-      %h4= post.created_at
+      %h2.blog-header= post.title
+      %h4.blog-time= post.created_at.strftime("%B %d, %Y")
       .blog-post= post.body
