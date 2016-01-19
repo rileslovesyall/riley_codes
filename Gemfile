@@ -42,7 +42,9 @@ gem 'dotenv-rails', :groups => [:development, :test]
 gem 'humanizer'
 
 # Red Cloth so posts can be written in markdown and then translated on the page
+# gem 'RedCloth'
 gem 'redcloth-rails', '~> 0.2.0'
+
 # Paperclip gem for uploading files
 gem "paperclip", "~> 4.3"
 # To generate pretty slugs for blog posts
