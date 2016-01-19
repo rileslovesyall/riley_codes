@@ -76,4 +76,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+  # so we can use RedCloth to display Textile in blog posts
+  config.gem 'redcloth-rails', :version => '~> 0.2.0'
+
 end
