@@ -22,7 +22,10 @@ class PostsController < ApplicationController
 
   def edit; end
 
-  def update; end
+  def update
+    @post.update(post_params)
+    redirect_to posts_path
+  end
 
   def destroy; end
 
