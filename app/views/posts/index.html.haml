@@ -1,9 +1,10 @@
 .row
   .col-sm-12.col-md-12.col-lg-12
-    %h1 Awesome Blog Posts
-    - if @posts.length == 0
-      %p.text-center Coming soon!
-    - @posts.each do |post|
-      %h2.blog-header= post.title
-      %h4.blog-time= post.created_at.strftime("%B %d, %Y")
-      .blog-post= raw RedCloth.new(post.body).to_html
+    #blog-container
+      - if @posts.length == 0
+        %h1 Awesome Blog Posts
+        %p.text-center Coming soon!
+      - @posts.each do |post|
+        %h2.blog-header= post.title
+        %h4.blog-time= post.created_at.strftime("%B %d, %Y")
+        .blog-post= raw RedCloth.new(post.body).to_html
