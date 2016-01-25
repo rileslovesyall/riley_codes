@@ -1,22 +1,49 @@
 .row
   %h2 Recent Works in Progress
   = render 'divider'
+.row.projects-row
+  .col-sm-6.col-md-6.col-lg-6
+    = link_to 'http://quartzy.herokuapp.com', :target => "_blank" do
+      = image_tag 'quartzy.png', class: 'front-page-img img-responsive'
+    %h3 Quartzy Shopping App - Dec 2015
+    %p.text-center.project-description
+      Four-person project.
+      Translated user stories into manageable tasks on Trello board. Learned to use atomic transactions and more complex model interactions. 
+    = render 'teeny_div'
+    %h4.header_font.code-link= link_to "click here for the code", "https://github.com/Dreedle/betsy"
+    = render 'teeny_div'
+  .col-sm-6.col-md-6.col-lg-6
+    = link_to 'http://curateTV.herokuapp.com', :target => "_blank" do
+      = image_tag 'CurateTV.png', class: 'front-page-img img-responsive'
+    %h3 CurateTV - Janaury 2015
+    %p.text-center.project-description
+      Four-person project.
+      Learned how to consume APIs, use OAuth and OmniAuth for authorization.
+      = render 'teeny_div'
+    %h4.header_font.code-link= link_to "click here for the code", "https://github.com/TamarHershi/seemore"
+    = render 'teeny_div'
+.row.projects-row
   .col-sm-6.col-md-6.col-lg-6
     = link_to 'http://get-sweaty.herokuapp.com', :target => "_blank" do
       = image_tag 'GetSweaty.png', class: 'front-page-img img-responsive'
     %h3 Workout Generator - November 2015
     %p.text-center.project-description
-      Sandbox project.
+      Solo sandbox project.
       Learned basic user authorization, many-to-many relationships, & complex relationships between models. 
-    %h4.header_font= link_to "click here for the code", "https://github.com/rileyrileyrose/tabata-rails-app"
+      = render 'teeny_div'
+    %h4.header_font.code-link= link_to "click here for the code", "https://github.com/rileyrileyrose/tabata-rails-app"
+    = render 'teeny_div'
   .col-sm-6.col-md-6.col-lg-6
     = link_to 'http://rileysmagicaltasklist.herokuapp.com', :target => "_blank" do
       = image_tag 'TaskList.png', class: 'front-page-img img-responsive'
     %h3 First Rails App - November 2015
     %p.text-center.project-description
+      Solo project.
       Learned how to build a Rails web app & deploy to Heroku.
       Became familiar with MVC architecture, & began working with CSS. 
-    %h4.header_font= link_to "click here for the code", "https://github.com/rileyrileyrose/TaskListRails"
+      = render 'teeny_div'
+    %h4.header_font.code-link= link_to "click here for the code", "https://github.com/rileyrileyrose/TaskListRails"
+    = render 'teeny_div'
 .row
   = render 'divider'
 .row

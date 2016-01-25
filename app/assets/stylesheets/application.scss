@@ -146,6 +146,12 @@ h4 {
   margin: 20px 0 35px;
 }
 
+.small-dash-divider {
+  height: 8px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
 .margin-bottom {
   margin-bottom: 30px;
 }
@@ -195,10 +201,18 @@ a:visited {
   margin: 0 auto;
 }
 
+.projects-row {
+  margin-bottom: 40px;
+}
+
 .project-description {
   display: block;
   margin: 0 auto;
   width: 80%;
+}
+
+.code-link {
+  margin-bottom: 0px;
 }
 
 .header_font {
